@@ -1,0 +1,151 @@
+@media screen and (max-width: 1025px) {
+  .flex_items div:nth-child(1) {
+    width: 100%;
+    height: 500px;
+  }
+  .flex_items div:nth-child(1) img {
+    width: 100%;
+    height: 500px;
+    transform: scaleX(1.4);
+  }
+  .flex_items div {
+    width: 50%;
+    height: 265px;
+  }
+  .flex_items div img {
+    transform: scalex(1.3);
+  }
+}
+
+@media screen and (min-width:730px) {
+  .mobile_nav {
+    display: none;
+    background: none;
+  }
+  .mobile_nav ul {
+    display: none;
+  }
+  header>nav {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  header>nav {
+    display: none;
+  }
+  .mobile_icons button, a {
+    display: block;
+    z-index: 5;
+  }
+  .mobile_nav {
+    display: none;
+    height: 700px;
+    z-index: 2;
+  }
+  .mobile_nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding-left: 30px;
+  }
+  .mobile_nav ul li:nth-child(1) {
+    padding-top: 60px;
+  }
+  .mobile_nav ul li {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 80%;
+    border-bottom: 0.5px solid lightgray;
+  }
+  footer{
+    height: auto;
+
+  }
+  .footer_flex{
+    display: block;
+    width: 100%;
+    height: 80%;
+    padding-left: 20px;
+    padding-right: 0px;
+
+  }
+  .bottom_footer{
+    position:static;
+    top: 0px;
+    left:10px;
+    margin: 0px;
+  }
+  .footer_flex div{
+    display:block;
+    width: 95%;
+    padding-bottom: 20px ;
+}
+  .footer_flex h3{
+    border-bottom: 1px solid #d6d6d6;
+    cursor: pointer;
+  }
+  .footer_flex div{
+
+  }
+  .footer_flex div div{
+    display: block;
+    width: 95%;
+    padding-bottom: 20px ;
+  }
+  .footer_flex div:nth-child(3) div:nth-child(2){
+    padding-bottom: 0px;
+
+  }
+  .footer_flex div:nth-child(4) div:nth-child(2){
+    padding-bottom: 0px;
+
+  }
+  .footer_flex div a{
+  display: none;
+  padding-bottom: 10px;
+  }
+  .plus{
+    float: right;
+    margin-right: 10px;
+  visibility: visible;
+  }
+
+  .bottom_footer{
+    width: 90%;
+    margin-left: auto;
+    border: none;
+    padding-left: 20px;
+  }
+    .bottom_footer a{
+      display: inline;
+    }
+}
+
+@media screen and (max-width: 720px) {
+  .flex_items div {
+    width: 100%;
+  }
+  .flex_items div img {
+    transform: scalex(1);
+  }
+  .flex_items div:nth-child(1) img {
+    width: 100%;
+    height: 500px;
+    transform: scaleX(1.7);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex_items div:nth-child(1) img {
+    width: 100%;
+    height: 380px;
+    transform: scaleX(2);
+  }
+  .flex_items div {
+    width: 100%;
+  }
+  .flex_items div img {
+    transform: scalex(1.4);
+  }
+}
