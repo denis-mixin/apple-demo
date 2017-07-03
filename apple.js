@@ -3,7 +3,9 @@ $('.menu_btn').on("click", function() {
 });
 
 $(window).resize(function() {
+   if ($(window).width() > 700) {
   $(".mobile_nav").slideUp("slow");
+}
 });
 
 $('.footer_flex h3').on("click", function() {
