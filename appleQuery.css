@@ -153,3 +153,12 @@
       transform: scalex(1.5);
   }
 }
+@media screen and (max-width: 500px){
+  .flex_items div {
+    width: 100%;
+  }
+  .flex_items div img {
+    transform: scalex(1.7);
+  }
+}
+
