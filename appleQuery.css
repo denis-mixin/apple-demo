@@ -138,10 +138,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .flex_items div:nth-child(1){
+    height: 400px;
+  }
   .flex_items div:nth-child(1) img {
     width: 100%;
-    height:500px;
-   transform: scaleX(2.3);
+    height:400px;
+    transform: scaleX(1.9);
   }
   .flex_items div {
     width: 100%;
