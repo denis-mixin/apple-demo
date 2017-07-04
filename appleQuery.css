@@ -147,6 +147,6 @@
     width: 100%;
   }
   .flex_items div img {
-    transform: scalex(1.4);
+      transform: scalex(1.5);
   }
 }
