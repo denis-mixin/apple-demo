@@ -144,7 +144,7 @@
   .flex_items div:nth-child(1) img {
     width: 100%;
     height:330px;
-    transform: scaleX(1.8);
+   transform: scaleX(2.1);
   }
   .flex_items div {
     width: 100%;
