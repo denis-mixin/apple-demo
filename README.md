@@ -1,1 +1,1 @@
-https://denis6421.github.io/apple-demo/apple.html
+https://denis6421.github.io/apple-demo/
